@@ -1,0 +1,25 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>FIA'O – Debts &amp; Payments</title><link rel="stylesheet" href="styles.css"></head>
+<body class="red"><header class="nav"><a class="logo" href="index.html">FIA'<i></i></a><ul>
+<li><a class="pill" href="index.html">Home</a></li><li><a class="pill" href="credit.html">Credit</a></li><li><a class="pill" href="products.html">Products</a></li><li><a class="pill" href="clients.html">Clients</a></li><li><a class="pill" href="reports.html">Reports</a></li><li><a class="pill" href="contact.html">Contact</a></li></ul></header>
+<main><h1>Debts <b>&amp;</b> Payments</h1><p class="sub">Manage customer debts, register payments, and track balances easily.</p>
+<div class="grid tri">
+<div class="grid">
+<div class="card"><h3>Select a customer</h3><select><option>Ramón Batista</option><option>Carlos Gómez</option></select></div>
+<div class="card"><h3>Ramón Batista</h3><div class="pair"><div class="mini">Current debt<b>B/. 35.00</b></div><div class="mini">Credit limit<b>B/. 100.00</b></div></div>
+<div class="bar"><i style="width:35%"></i></div><small>35% used · Limit: B/. 100.00</small></div>
+<div class="card"><h3>Automatic blocking</h3><label><input type="checkbox" checked style="width:auto"> If a customer exceeds the debt limit, the system prevents new credits.</label></div></div>
+<div class="grid">
+<div class="card"><h3>Debt history</h3>
+<div class="row"><span>14 JUL · Milk (2)</span><b class="red-t">B/. 8.00</b><span class="badge pend">Pending</span></div>
+<div class="row"><span>09 JUL · Detergent</span><b class="red-t">B/. 4.50</b><span class="badge pend">Pending</span></div>
+<div class="row"><span>05 JUL · Payment received</span><b style="color:var(--green)">-B/. 20.00</b><span class="badge ok">Paid</span></div></div>
+<div class="card"><h3>Register payment</h3><label for="amt">Payment amount</label><input id="amt" placeholder="B/. 0.00">
+<label><input type="radio" name="t" checked style="width:auto"> Partial payment &nbsp; <input type="radio" name="t" style="width:auto"> Full payment</label>
+<div class="acts" style="margin-top:.8rem"><button class="pill">Register payment</button><button class="btn line">Mark as paid</button></div></div></div>
+<div class="grid">
+<div class="card"><h3>Recent activity</h3>
+<div class="row"><span>Ramón Batista<br><small>Paid B/. 15.00</small></span><small>Today</small></div>
+<div class="row"><span>Carlos Gómez<br><small>New debt: B/. 12.50</small></span><small>Yesterday</small></div>
+<div class="row"><span>Ana Martínez<br><small>Payment received: B/. 20.00</small></span><small>Yesterday</small></div></div>
+<div class="card"><h3>Debt overview</h3><div class="pair"><div class="mini">Outstanding debt<b>B/. 480.00</b></div><div class="mini">Payments today<b>B/. 150.00</b></div><div class="mini">Customers with debt<b>18</b></div><div class="mini">Overdue<b>4</b></div></div></div>
+</div></div></main><script src="auth.js"></script><script src="app.js"></script></body></html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>FIA'O – Reports</title><link rel="stylesheet" href="styles.css"></head>
+<body><header class="nav"><a class="logo" href="index.html">FIA'<i></i></a><ul>
+<li><a class="pill" href="index.html">Home</a></li><li><a class="pill" href="credit.html">Credit</a></li><li><a class="pill" href="products.html">Products</a></li><li><a class="pill" href="clients.html">Clients</a></li><li><a class="pill" href="reports.html">Reports</a></li><li><a class="pill" href="contact.html">Contact</a></li></ul></header>
+<main><div style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:1rem"><div><h1>FIA'O Reports</h1><p class="sub">Financial tracking, credit summaries, and business analytics overview.</p></div><div class="acts" style="height:fit-content"><button class="btn line">Export PDF</button><button class="btn line">Export Excel</button></div></div>
+<div class="card" style="margin-bottom:1rem"><label>Date range</label><div class="pair"><input type="date" value="2026-07-01"><input type="date" value="2026-07-31"></div>
+<label>Customer status / name</label><select><option>All Customers (All Names)</option></select><button class="btn" style="width:100%;margin-top:1rem">Apply filters</button></div>
+<div class="grid g4" style="margin-bottom:1rem">
+<div class="card kpi"><small>TOTAL ACTIVE CREDIT</small><div class="big">$1,450.00</div><span class="up">↑ +8.4% from last month</span></div>
+<div class="card kpi"><small>COLLECTED THIS MONTH</small><div class="big">$3,120.50</div><span class="up">↑ +12.1% efficiency</span></div>
+<div class="card kpi"><small>PENDING BALANCES</small><div class="big">$340.00</div><span class="up">↓ -3 accounts overdue</span></div>
+<div class="card kpi"><small>TOTAL CUSTOMERS</small><div class="big">48</div><span class="up">+5 new this month</span></div></div>
+<div class="grid" style="grid-template-columns:2fr 1fr;margin-bottom:1rem">
+<div class="card"><h3>Credit activity &amp; payments flow</h3><small>🟡 Credit issued &nbsp; 🟢 Payments received &nbsp; 🔴 Overdue</small><div class="chart" style="margin-top:.8rem">
+<div><i style="height:50%"></i><i class="g" style="height:75%"></i><i class="r" style="height:18%"></i></div>
+<div><i style="height:65%"></i><i class="g" style="height:95%"></i><i class="r" style="height:30%"></i></div>
+<div><i style="height:40%"></i><i class="g" style="height:60%"></i><i class="r" style="height:12%"></i></div>
+<div><i style="height:80%"></i><i class="g" style="height:100%"></i><i class="r" style="height:35%"></i></div></div>
+<div style="display:flex;justify-content:space-around;font-size:.7rem;margin-top:.4rem"><span>Week 1</span><span>Week 2</span><span>Week 3</span><span>Week 4</span></div></div>
+<div class="card brk"><h3>Payment status breakdown</h3>
+<p><span>On Time (75%)</span><span>$2,340</span></p><div class="bar"><i style="width:75%"></i></div>
+<p><span>Pending (17%)</span><span>$540</span></p><div class="bar"><i style="width:17%;background:#d4a62a"></i></div>
+<p><span>Overdue (8%)</span><span>$240</span></p><div class="bar"><i style="width:8%;background:#ef4444"></i></div></div></div>
+<div class="tablewrap"><table><thead><tr><th colspan="4">Recent credit transactions</th></tr><tr><th>Customer name</th><th>Description</th><th>Amount</th><th>Date</th><th>Status</th></tr></thead><tbody>
+<tr><td><b>Maria Gomez</b></td><td>Grocery items &amp; supplies</td><td>$45.00</td><td>2026-07-28</td><td><span class="badge ok">On Time</span></td></tr>
+<tr><td><b>Carlos Mendoza</b></td><td>Weekly hardware credit</td><td>$120.00</td><td>2026-07-25</td><td><span class="badge pend">Pending</span></td></tr>
+<tr><td><b>Ana Ruiz</b></td><td>Bakery stock order</td><td>$85.50</td><td>2026-07-18</td><td><span class="badge over">Overdue</span></td></tr></tbody></table></div>
+</main><script src="auth.js"></script><script src="app.js"></script></body></html>
