@@ -88,14 +88,3 @@ summary{font-weight:600;font-size:.9rem;cursor:pointer}details p{margin-top:.6re
 .auth .msg{color:#a80000;font-size:.85rem;font-weight:600;min-height:1.3rem;margin-top:.8rem}
 .auth .alt{font-size:.85rem;margin-top:1rem;text-align:center}
 .auth .alt a{color:var(--red);font-weight:600}
-/* Botones nuevos, modo oscuro */
-[hidden]{display:none!important}
-.tools{display:flex;gap:.4rem}
-.chips .btn{padding:.2rem .9rem;font-size:.8rem}
-:root[data-theme=dark]{--cream:#2b2118;--line:#6b4a1d;--ink:#f6e9d5;--brown:#a67c52}
-:root[data-theme=dark] body{background:#1b140f;color:var(--ink)}
-:root[data-theme=dark] body.red{background:#4a0f0f}
-:root[data-theme=dark] .card{background:var(--cream)!important;color:var(--ink)}
-:root[data-theme=dark] :is(.row,.mini,.tablewrap,.stock,.chart,details,input,select,textarea,.chip,.thumb,.btn.line){background:#1f1812;color:var(--ink)}
-:root[data-theme=dark] :is(th,.sub){background:var(--cream);color:#d9c6ad}
-:root[data-theme=dark] body.red .sub{background:none;color:#ffd6d6}
